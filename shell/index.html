@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../assets/mouse.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="./shell.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>shell</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="../" class="home-link">home</a>
+      <h1 class="title">shell</h1>
+    </header>
+    <main>
+      <section class="cups">
+        <div class="control">
+          <img id="cup-one" class="thimbles" src="../../assets/thimble.png" alt="cup">
+          <button id="button-one" class="three-buttons">
+            cup 1
+          </button>
+        </div>
+        <div class="control">
+          <img id="cup-two" class="thimbles" src="../../assets/thimble.png" alt="cup">
+          <button id="button-two" class="three-buttons">
+            cup 2
+          </button>
+        </div>
+        <div class="control">
+          <img id="cup-three" class="thimbles" src="../../assets/thimble.png" alt="cup">
+          <button id="button-three" class="three-buttons">
+            cup 3
+          </button>
+        </div>
+      </section>
+      <section class="count">
+        <div class="count-title">Totals</div>
+        <div class="guesses">
+          Correct:<span id="correct-guesses">0</span>
+        </div>
+        <div class="guesses">
+          Incorrect: <span id="incorrect-guesses">0</span>
+        </div>
+        <div class="guesses">
+          Total:<span id="total-guesses">0</span>
+        </div>
+      </section>
+      <section class="new-game-buttons">
+        <button id="reset-button" type="button">reset</button>
+        <button id="start-over" type="button">start over</button>
+      </section>
+    </main>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+
+</html>
