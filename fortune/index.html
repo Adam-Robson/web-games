@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../assets/mouse.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="./fortune.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>fortune | mouse</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="../" class="home-link">home</a>
+      <div class="title">fortune</div>
+    </header>
+    <main>
+      <section class="ball-section">
+        <img src="../../assets/crystallball.svg" alt="crystal ball" class="crystal" />
+
+        <article class="input-container" id="input-container">
+          <label for="question" class="question">What is your question?</label>
+          <input class="question" id="question" type="text" />
+          <button class="qustion" id="question-btn">submit</button>
+        </article>
+      </section>
+
+      <section id="second-question-container">
+        <button id="second-question-btn" class="hidden">ask another question</button>
+      </section>
+
+      <article id="show-question-container">
+        <p class="show-question" id="show-question"></p>
+        <p class="show-question" id="answer"></p>
+      </article>
+
+
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+
+</html>
